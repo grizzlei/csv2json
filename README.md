@@ -16,17 +16,17 @@ example use:
 
 hk@hasankaraman.devhk@hasankaraman.dev
 ```
-Dump output to file:
-```
-csv2json meta/sample/points.csv --beautify > points.json
-```
 
 How to install:
 ```
 git clone https://github.com/grizzlei/csv2json
 cd csv2json
 make install
-source .profile
+source ~/.profile
+```
+Dump output to file:
+```
+csv2json meta/sample/points.csv -b > points.json
 ```
 
 Thanks:
