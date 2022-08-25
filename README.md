@@ -14,11 +14,12 @@ example use:
         csv2json meta/sample/points-noheader.csv --beautify --noheader
         csv2json meta/sample/points-tab-separated.csv --delimiter tab --beautify
 
-hk@hasankaraman.devhk@hasankaraman.dev
+hk@hasankaraman.dev
 ```
 
 How to install:
 ```
+apt install nlohmann-json3-dev
 git clone https://github.com/grizzlei/csv2json
 cd csv2json
 make install
